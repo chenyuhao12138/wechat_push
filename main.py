@@ -124,6 +124,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     love_month = int(config["love_date"].split("-")[1])
     love_day = int(config["love_date"].split("-")[2])
     love_date = date(love_year, love_month, love_day)
+    love_start_date = str(love_year, love_month, love_day)
     # 获取在一起的日期差
     love_days = str(today.__sub__(love_date)).split(" ")[0]
     # 获取所有生日数据
@@ -169,8 +170,8 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
                 "value": note_ch,
                 "color": get_color()
             },
-            "love_date": {
-                "value": love_date,
+            "love_start_date": {
+                "value": love_start_date,
                 "color": get_color()
             }
         }
