@@ -3,7 +3,7 @@
 # 公众号appId
 "app_id": "wx89e2740c72792cf0",
 # 公众号appSecret
-"app_secret": "5b90ac7a8c851fcedd808b6fbe0cbd52",
+"app_secret": "197e7ac8ef53408ac3994114e80dfd0e",
 # 模板消息id
 "template_id": "qgzo7CEHMMYrPzfCIYRG2C0DWgtNaO6n4FkbCNtZKpI",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
@@ -15,7 +15,7 @@
 # 所在城市
 "city": "徐州",
 # 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
-"birthday1": {"name": "小金", "birthday": "2000-0-25"},
+"birthday1": {"name": "小金", "birthday": "2000-09-25"},
 # 生日2
 #"birthday2": {"name": "小林", "birthday": "1997-08-18"},
 # 在一起的日子，格式同上
